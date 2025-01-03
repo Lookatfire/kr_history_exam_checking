@@ -1,6 +1,6 @@
-from pandas import concat as con
-from pandas import DataFrame as df
-from pandas import read_excel as rxlsx
+from pandas import concat as con #ignore
+from pandas import DataFrame as df #ignore
+from pandas import read_excel as rxlsx #ignore
 
 class kr_history_exam():
   def __init__(self):
@@ -141,4 +141,3 @@ class kr_history_exam():
           print('=====================================================')
           print('1. 답이랑 배점을 추가시키기')
           print('2. 채점하기')
-          print('3. 종료시키기')
